@@ -1,0 +1,404 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-align: justify;
+    font-family: 'Inter', sans-serif;
+
+
+}
+
+nav {
+    height: 80px;
+    background-color: #180E0C;
+
+}
+
+nav img {
+    height: 55px;
+    padding: 10px 25px;
+}
+
+nav ul {
+    float: right;
+    margin-right: 25px;
+    /*box-sizing: border-box;*/
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    line-height: 75px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 10px 10px;
+    color: #ffffff;
+    font-size: 20px;
+    text-transform: capitalize;
+    border-radius: 7px;
+   
+}
+
+
+nav ul li a.active,
+nav ul li a:hover {
+    background-color: #707070;
+    transition: 0.3s;
+  
+}
+
+.checkbtn {
+    font-size: 30px;
+    color: oldlace;
+    float: right;
+    padding: 15px 50px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+.img-top {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    object-position: center;
+
+}
+
+.Figure0 {
+    width: 200px;
+    height: 500px;
+}
+
+.flex-container {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    background-color: #ffffff;
+    border: none;
+    justify-content: space-around;
+    margin-bottom: 50px;
+
+}
+
+.Figure1 {
+    height: 300px;
+    width: 200px;
+    object-position: top;
+    object-fit: cover;
+
+}
+
+.Figure2 {
+    background-color: #37201a;
+
+}
+
+.flex-container-2 {
+    width: 100%;
+    background-color: #37201a;
+    flex-direction: row;
+    color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+
+}
+
+.section1 {
+    width: 25%;
+    height: 600px;
+    justify-content: center;
+
+
+}
+
+.text {
+    height: 100px;
+    width: 100%;
+    height: 150px;
+
+}
+
+figure {
+    margin-left: 15px;
+    margin-inline-end: 5;
+}
+
+.float {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    object-position: top;
+    float: left;
+    margin-right: 10px;
+
+}
+
+.section2 {
+    width: 25%;
+    height: 600px;
+    justify-content: center;
+
+
+}
+
+.section3 {
+    width: 50%;
+    height: 600px;
+    justify-content: center;
+
+}
+
+.flex-container-2 h3 {
+    font-size: 25px;
+    padding: 15px;
+}
+
+.model-10 {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.article3 {
+    background-color: #251611;
+    color: #9f7e6d;
+    display: flex;
+}
+
+
+.section4 {
+    width: 65%;
+    padding: 25px
+}
+
+.section5 {
+    width: 30%;
+    padding: 25px;
+}
+
+.section5 ul li {
+    list-style: none;
+    padding-left: 10px;
+}
+
+.section5 ul li a {
+    text-decoration: underline;
+    padding: 2px 2 px;
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 25px;
+    border-radius: 7px;
+}
+.section5 ul li a:hover {
+    background-color: #707070;
+    transition: 0.3s;
+}
+
+
+
+.article3 .section4 p {
+    padding-right: 30px;
+
+}
+
+.article3 .section5 ul {
+    margin-left: -20px;
+    text-decoration: none;
+
+}
+
+footer {
+    color: #9f7e6d;
+    width: 100%;
+    height: 80px;
+    background-color: #180e0c;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .checkbtn {
+        display: block;
+    }
+
+    nav ul {
+        position: fixed;
+        width: 60%;
+        height: 100vh;
+        background-color: #180E0C;
+        top: 75px;
+        left: -100%;
+        text-align: center;
+        transition: 0.3s;
+    }
+
+    nav ul li {
+        display: block;
+    }
+
+    a.active,
+    a:hover {
+        background-color: transparent;
+        transition: 0.3s;
+    }
+
+    li.active,
+    li:hover {
+        background-color: #707070;
+        transition: 0.3s;
+    
+    }
+
+    nav ul li a {
+        font-size: 18px;
+        margin-left: 25px;
+    }
+
+    nav img {
+        height: 55px;
+        padding: auto;
+    }
+
+    #check:checked~ul {
+
+        left: 0px;
+    }
+
+    nav ul li a {
+        width: 500px;
+    }
+
+    .Figure0 {
+        width: 150px;
+        height: 500px;
+    }
+
+    .Figure1 {
+        height: 225px;
+        width: 150px;
+        object-position: top;
+        object-fit: cover;
+
+    }
+
+    .flex-container {
+        width: 100%;
+        margin-top: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #ffffff;
+        border: none;
+        justify-content: space-around;
+        margin-bottom: 50px;
+        flex-shrink: 2;
+
+    }
+
+    .flex-container-2 {
+        width: 100%;
+        background-color: #37201a;
+        display: flex;
+        flex-wrap: wrap;
+        color: #f0f0f0;
+        justify-content: space-around;
+
+    }
+
+    .section1 {
+        width: 100%;
+        height: auto;
+        padding: 25px;
+        justify-content: center;
+
+    }
+
+    .section2 {
+        width: 100%;
+        height: auto;
+        padding: 25px;
+        justify-content: center;
+
+
+    }
+
+    .section3 {
+        width: 100%;
+        height: auto;
+        padding: 25px;
+        justify-content: center;
+
+    }
+
+    .section1 h3 {
+        font-size: 25px;
+        line-height: 75px;
+    }
+
+    .section2 h3 {
+        font-size: 25px;
+        line-height: 75px;
+    }
+
+    .section3 h3 {
+        font-size: 25px;
+        line-height: 75px;
+    }
+
+    .article3 {
+        width: 100%;
+        background-color: #251611;
+        color: #9f7e6d;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .section4 {
+        width: 100%;
+        padding: 25px;
+
+    }
+
+    .section4 h2 {
+        line-height: 25px;
+        font-size: 25px;
+    }
+
+    .section5 {
+        width: 100%;
+        padding: 25px;
+    }
+
+    .article3 .section4 a {
+        padding-right: 30px;
+        display: flex;
+
+    }
+
+    .article3 .section5 ul {
+        display: inline-block;
+        list-style: none;
+        line-height: 25px;
+    }
+
+    .article3 .section5 ul a {
+        margin-left: 20px;
+        color: #9f7e6d;
+        text-decoration: underline;
+        padding: 5px;
+        font-size: 20px;
+        display: block;
+        text-transform: initial;
+        border-radius: 7px;
+    }
+}
